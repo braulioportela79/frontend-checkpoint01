@@ -38,5 +38,3 @@ Confira o layout esperado para a sua página web no seguinte link: [Layout no Fi
 #### Conclusão
 
 Parabéns! Você acaba de finalizar o primeiro checkpoint da disciplina de Front-end I.
-
-1
