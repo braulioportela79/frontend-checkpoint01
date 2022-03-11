@@ -1,4 +1,3 @@
-# frontend-checkpoint01
 # Front end I
 # Checkpoint 01
 # Objetivo
