@@ -36,40 +36,6 @@ header {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .menu-toggle {
-    width: 35px;
-    bottom: 10%;
-    left: 0px;
-    right: 0px;
-  }
-  .mobileIcon {
-    height: 40px;
-    cursor: pointer;
-    position: relative;
-  }
-  .mobileIcon:after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 0.25em;
-    height: 0.25em;
-    width: 100%;
-    background: rgb(255, 255, 255);
-    box-shadow: rgb(255 255 255) 0px 0.75em 0px 0px,
-      rgb(255 255 255) 0px 1.5em 0;
-  }
-}
-
-@media (max-width: 580px) {
-  nav {
-    display: none;
-  }
-  .menu-toggle {
-    display: block;
-  }
-}
-
 header {
   padding-right: 10px;
 }
@@ -135,7 +101,7 @@ h1 {
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 5px 5px 19px 0px rgba(0, 0, 0, 0.5);
-  width: 250px;
+  width: 265px;
   margin-right: 30px;
   border-radius: 20px;
   padding: 0 10px 0 10px;
@@ -311,11 +277,67 @@ footer {
   justify-content: space-around;
 }
 
-.icons img{
+.icons img {
   width: 30px;
 }
 
 .text {
   color: white;
   font-size: 10px;
+}
+
+@media (max-width: 365px) {
+  header {
+    background-image: url('../img/header_bg.png');
+    background-repeat: repeat;
+    padding-left: 10px;
+  }
+  .card {
+    width: 250px;
+    height: 600px;
+  }
+
+  input:checked ~ .toggle {
+    box-shadow: 0 0 0 600px #ffd900;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    width: 35px;
+    bottom: 10%;
+    left: 0px;
+    right: 0px;
+  }
+  .mobileIcon {
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+  }
+  .mobileIcon:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0.25em;
+    height: 0.25em;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(255 255 255) 0px 0.75em 0px 0px,
+      rgb(255 255 255) 0px 1.5em 0;
+  }
+}
+
+@media (max-width: 580px) {
+  nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .banner {
+    justify-content: center;
+  }
+  .bannerDescription {
+    margin-right: 0px;
+  }
 }
